@@ -11,11 +11,11 @@
 
 ## 🛠️ 技术说明
 
-想直接玩的 → Releases 下 exe
+Windows 上直接玩（无需 Python）：
 
 [Download Flappy Bird](https://github.com/Hsh003/Flappy-Bird/releases/download/v1.0.0/flappy_bird.exe)
 
-想看代码的 → clone 仓库:
+想看代码的 → clone 仓库（装 Python）:
 
 ### 依赖项
 
@@ -44,9 +44,11 @@ flappy_bird.py
 ## 📁 项目结构
 
 ```
-Flappy Bird/
-├── flappy_bird.py    # 主程序文件
-└── README.md         # 本说明文档
+Flappy-Bird/
+├── flappy_bird.py   # 主程序
+├── LICENSE          # MIT
+├── README.md        # 说明
+└── .gitattributes
 ```
 
 ## 💡 游戏机制
