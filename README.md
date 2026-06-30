@@ -11,6 +11,10 @@
 
 ## 🛠️ 技术说明
 
+想直接玩的 → Releases 下 exe
+
+想看代码的 → clone 仓库:
+
 ### 依赖项
 
 ```bash
@@ -23,6 +27,7 @@ pip install pygame
 - Pygame 库
 
 ### 运行方法
+
 
 ```bash
 python flappy_bird.py
