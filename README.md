@@ -1,21 +1,30 @@
 # 飞翔的小鸟 (Flappy Bird)
 
-一个使用 Pygame 制作的经典游戏。控制小鸟躲避管道，尽可能获得高分！
+一个使用 Pygame 制作的经典 Flappy Bird 复刻版。控制小鸟躲避管道，挑战最高分！
+
+[![Download Flappy Bird](https://img.shields.io/github/downloads/Hsh003/Flappy-Bird/total?style=for-the-badge&logo=windows)](https://github.com/Hsh003/Flappy-Bird/releases/latest)
+
+---
 
 ## 🎮 游戏玩法
 
-- **按空格键**：让小鸟向上飞
-- **目标**：穿过绿色管道并避免碰撞
-- **得分**：每成功通过一组管道得 1 分
-- **重新开始**：游戏结束后按空格键重启
+| 操作 | 说明 |
+|------|------|
+| **空格键** | 小鸟向上跳跃 |
+| **游戏结束后再按空格** | 重新开始 |
 
-## 🛠️ 技术说明
+**目标**：穿过绿色管道，避免碰撞，获得更高分数。
 
-Windows 上直接玩（无需 Python）：
+---
 
-[Download Flappy Bird](https://github.com/Hsh003/Flappy-Bird/releases/download/v1.0.0/flappy_bird.exe)
+## 🛠️ 运行方式
 
-想看代码的 → clone 仓库（装 Python）:
+### 方式一：直接游玩（推荐，无需 Python）
+1. 前往 [Releases](https://github.com/Hsh003/Flappy-Bird/releases/latest)
+2. 下载 `flappy_bird.exe`
+3. 双击即可运行
+
+### 方式二：源码运行（需要 Python）
 
 ### 依赖项
 
@@ -51,12 +60,6 @@ Flappy-Bird/
 └── .gitattributes
 ```
 
-## 💡 游戏机制
-
-- **重力系统**：小鸟持续下落，按空格可向上跳跃
-- **随机管道生成**：每次新管道的高度随机变化
-- **碰撞检测**：使用矩形碰撞判断与地面/管道的接触
-- **分数系统**：安全通过一组管道后加分（含防作弊延时）
 
 ## 🎨 配色方案
 
