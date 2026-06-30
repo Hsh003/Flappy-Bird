@@ -13,6 +13,8 @@
 
 想直接玩的 → Releases 下 exe
 
+[Download Flappy Bird](https://github.com/Hsh003/Flappy-Bird/releases/download/v1.0.0/flappy_bird.exe)
+
 想看代码的 → clone 仓库:
 
 ### 依赖项
